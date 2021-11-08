@@ -10,3 +10,7 @@ cd OCamlSimpleSnake
 ocamlc graphics.cma unix.cma snake.ml -o snake
 ./snake
 ```
+
+## Dune
+- `dune build`
+- `dune exec ./snake.exe`
