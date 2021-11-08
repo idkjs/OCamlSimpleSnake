@@ -1,5 +1,7 @@
-(executable (name snake)
+(executable
+ (name snake)
  (libraries graphics threads))
+
 (env
  (dev
   (flags
